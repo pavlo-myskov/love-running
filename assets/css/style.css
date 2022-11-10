@@ -141,19 +141,20 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading, .right-about-heading {
+.left-about-heading {
     width: 60%;
+    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
-.left-about-heading {
-    float: right;
-}
-
 .right-about-heading {
+    width: 60%;
     float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 .right-about-heading h2 {
@@ -182,7 +183,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
