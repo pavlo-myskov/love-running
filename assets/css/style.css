@@ -389,3 +389,10 @@ footer {
         column-count: 2;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .form-section {
+        background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+        background-size: cover;
+    }
+}
